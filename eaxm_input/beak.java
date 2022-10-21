@@ -1,0 +1,14 @@
+package eaxm_input;
+
+public class beak {
+    public static void main(String[] args) {
+        int i = 0;
+        int sum = 0;
+
+        while (i <= 100) {
+            sum += i;
+            i++;
+        }
+        System.out.print(" 합 : " + sum);
+    }
+}
